@@ -1,0 +1,38 @@
+body {
+	background-color: #333333;
+	display: grid;
+	justify-content: center;
+	place-items: center;
+	align-items: center;
+	transition: background-color 1.2s ease-out;
+}
+
+#quote-box {
+	background-color: #ffffff;
+	border-radius: .2rem;
+	margin-top: 40%;
+	padding: 25px;
+	width: 400px;
+	height: auto;
+}
+
+#new-quote {
+	margin-left: 50%;
+	cursor: pointer;
+	border: none;
+	height: 44px;
+}
+
+#text {
+	font-size: 35px;
+	margin-bottom: 15px;
+	text-align: center;
+	transition: opacity .8s ease-in;
+}
+
+#author {
+	text-align: right;
+    transition: color 1s ease-in;
+	transition: opacity .8s ease-in;
+}
+

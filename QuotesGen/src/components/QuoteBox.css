@@ -1,0 +1,27 @@
+.fade {
+    transition: fadeEffect 4s ease-out;
+}
+
+@keyframes fadeEffect {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.button {
+    border-radius: .2rem;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    margin: 2px;
+    margin-top: 10px;
+    transition: background-color cubic-bezier(0.785, 0.135, 0.15, 0.86)s ease-in;
+}
+  
